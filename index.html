@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayita's portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="images/art-portion-favicon.png">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/logo3.png" alt="logo3"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recent-works">Recent Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-mail">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 id="top-title">Hey,</h1>
+                    <h2 id="mid-title">I'm Jayita</h2>
+                    <p class="medium-text p-4" id="para">
+                      Welcome to my portfolio, <br>
+                      check out my art!
+                    </p>
+                    <div class="social-links px-4">
+                      <div class="d-inline px-2">
+                        <a 
+                          href="https://www.instagram.com/art.potion.jooi/" 
+                          target="_blank"
+                          title="Instagram">
+                          <i class="bi bi-instagram" id="sc-ig"></i>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/jayi-explorer.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2 id="mid-title">I'm on a journey...</h2>
+                    <p class="medium-text p-4">To become a great artist!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 id="mid-title">Things I like to draw / genres</h2>
+              <div class="p-4">
+                <div class="d-inline-block padded-boxes red-box">
+                  cartoons
+                </div>
+                <div class="d-inline-block padded-boxes green-box">
+                  caricatures
+                </div>
+                <div class="d-inline-block padded-boxes blue-box">
+                  vector illustration
+                </div>
+                <div class="d-inline-block padded-boxes violet-box">
+                  digital painting
+                </div>
+                <div class="d-inline-block padded-boxes red-box">
+                  doodles
+                </div>
+                <div class="d-inline-block padded-boxes yellow-box">
+                  flat illustrations
+                </div>
+              </div>
+          </div>
+            <div class="col-md-6">
+              <img class="img-fluid part-width" src="images/jayita-debnath-self.png">
+            </div>
+          </div>
+      </div>
+  </section>
+
+    <section  data-aos="fade-up" id="recent-works" style="background-color: rgb(47, 0, 52);">
+      <div class="container">
+        <h1 id="gallery-title" class="text-white">Recent works</h1>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block mx-auto w-50" src="./images/g1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto w-50" src="./images/g2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto w-50" src="./images/g3.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon shadow-lg" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon shadow-lg" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section  data-aos="fade-up" id="gallery">
+        <div class="container">
+            <h1 id="gallery-title">Gallery</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <a href="./images/g1.jpg" class="fancybox" data-fancybox="gallery1">
+                    <img class="gallery-img img-fluid" src="./images/g1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="./images/g2.png" class="fancybox" data-fancybox="gallery1">
+                    <img class="gallery-img img-fluid" src="./images/g2.png" alt="">
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="./images/g3.png" class="fancybox" data-fancybox="gallery1">
+                    <img class="gallery-img img-fluid" src="images/g3.png" alt="">
+                  </a>
+                </div>
+              <div class="col-sm-6 col-md-4">
+                <a href="./images/g4.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img class="gallery-img img-fluid" src="images/g4.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <a href="./images/g5.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img class="gallery-img img-fluid" src="./images/g5.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <a href="./images/g6.png" class="fancybox" data-fancybox="gallery1">
+                  <img class="gallery-img img-fluid" src="images/g6.png" alt="">
+                </a>
+              </div>
+            <div class="col-sm-6 col-md-4">
+              <a href="./images/g7.png" class="fancybox" data-fancybox="gallery1">
+                <img class="gallery-img img-fluid" src="./images/g7.png" alt="">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <a href="./images/g8.png" class="fancybox" data-fancybox="gallery1">
+                <img class="gallery-img img-fluid" src="./images/g8.png" alt="">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <a href="./images/g9.png" class="fancybox" data-fancybox="gallery1">
+                <img class="gallery-img img-fluid" src="images/g9.png" alt="">
+              </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact-mail" data-aos="fade-up">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <img class="img-fluid" src="images/jayi-mail.png" alt="">
+              </div>
+              <div class="col-md-6">
+                  <h2 id="mid-title">Want to hire me?</h2>
+                  <div class="d-flex">
+                    <input type="text" value="art.potion.jooi@gmail.com" id="email-input">
+                    <button class="btn btn-secondary" onclick="myFunction()">
+                      <i class="bi bi-clipboard-check"></i>
+                    </button>
+                  </div>
+                  <p class="medium-text p-4">
+                    Let's talk about what you need! <br />
+                    Feel free to mail me!
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <hr>
+
+    </footer>
+      <div id="copyright" class="p-3 d-flex justify-content-center align-items-center">
+        <div>
+          <span class="text-center text-muted"> © 2022 Copyright: Jayita Debnath</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+      AOS.init({
+        //   offset: 150,
+          duration: 1000
+      });
+
+      function myFunction() {
+        var copyText = document.getElementById("email-input");
+      
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+      
+        navigator.clipboard.writeText(copyText.value);
+      
+      }
+    </script>
+</body>
+</html>

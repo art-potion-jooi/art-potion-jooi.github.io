@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap');
+
+body {
+    font-family: 'Great Vibes';
+}
+
+.medium-text {
+    font-size: 2em;
+}
+
+#gallery-title,
+.navbar,
+#copyright {
+    font-family: 'Bebas Neue', serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#top-title {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+#mid-title {
+    font-size: 80px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: blueviolet;
+}
+
+#para{
+    padding-left: 30px;
+}
+section {
+    padding: 60px;
+}
+
+#gallery-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar{
+    padding-left: 80px;
+    font-size: 1.2em;
+}
+
+.navbar a {
+    color: blueviolet !important;
+}
+
+.img-fluid{
+    padding-bottom: 60px;
+}
+#gallery-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-size: 60px;
+    padding-bottom: 8%;
+}
+/* section{
+    filter: drop-shadow(1px 8px 8px #b1afaf);
+} */
+
+.gallery-img {
+    transition-duration: 0.5s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+.carousel 
+.carousel-indicators 
+li {  
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid gray;
+}
+
+#email-input {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: serif;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(220, 207, 232);
+}
+
+.padded-boxes {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Raleway';
+    font-size: 1em;
+    color: white;
+    text-decoration: bold;
+    text-transform: uppercase;
+}
+
+.red-box {
+    background-color: #9377e2;
+}
+.green-box {
+    background-color:#bf5149;
+}
+.blue-box {
+    background-color: #ff5d51;
+}
+.violet-box {
+    background-color: #607bbf;
+}
+.yellow-box {
+    background-color: #5e6b8c;
+}
+
+.part-width {
+    width: 80%;
+}
+
+#sc-ig {
+    font-size: 30px;
+    color: purple;
+}
