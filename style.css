@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap');
 
 body {
@@ -10,10 +9,15 @@ body {
     font-size: 2em;
 }
 
+.nav-link {
+    font-size: 0.8em;
+}
+
 #gallery-title,
 .navbar,
 #copyright {
-    font-family: 'Bebas Neue', serif !important;
+    font-family: 'Raleway', serif !important;
+    text-transform: uppercase;
 }
 
 html {
@@ -105,27 +109,6 @@ li {
     text-transform: uppercase;
 }
 
-.red-box {
+.colored-box {
     background-color: #9377e2;
-}
-.green-box {
-    background-color:#bf5149;
-}
-.blue-box {
-    background-color: #ff5d51;
-}
-.violet-box {
-    background-color: #607bbf;
-}
-.yellow-box {
-    background-color: #5e6b8c;
-}
-
-.part-width {
-    width: 80%;
-}
-
-#sc-ig {
-    font-size: 30px;
-    color: purple;
 }
